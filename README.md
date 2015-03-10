@@ -7,11 +7,11 @@ Or, at least, that's what we hope.
 
 Right now it includes:
 
-  Topic Mod: 100 New Topics
+Topic Mod: 100 New Topics
   
 Soon it will add:
 
-  Research Mod: We don't know how many yet, but lots!
+Research Mod: We don't know how many yet, but lots!
 
 Want to collaborate on making this a better mod? Visit our website: http://SeventhGamers.com
 There's a page describing the mod itself, as well as a forum where you can ask us things.
