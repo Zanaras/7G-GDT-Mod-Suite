@@ -6,9 +6,11 @@ The plan is that eventually this will include enough new events, topics, researc
 Or, at least, that's what we hope.
 
 Right now it includes:
+
   Topic Mod: 100 New Topics
   
 Soon it will add:
+
   Research Mod: We don't know how many yet, but lots!
 
 Want to collaborate on making this a better mod? Visit our website: http://SeventhGamers.com
