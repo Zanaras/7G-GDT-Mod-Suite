@@ -1,8 +1,4 @@
 (function () {
-		//
-		//
-		//Graphics drawn here
-		//Adds: 13
 		GDT.addResearchItem({
 			id: "Multi-Monitor Support", //Must be unique
 			name: "Multi-Monitor Support".localize(), //Display name
@@ -137,16 +133,12 @@
 			name: "16K".localize(), //Display name
 			v: 14, //Tech level
 			canResearch: function (company) {
-				return LevelCalculator.getMissionLevel('Graphic') > 11 
+				return LevelCalculator.getMissionLevel('Graphic') > 10 
 			},
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize()
 		});
-		//
-		//
-		//Sound section orchestrates here
-		//Adds: 6
 		GDT.addResearchItem({
 			id: "Environmental Audio", //Must be unique
 			name: "Environmental Audio".localize(), //Display name
@@ -207,10 +199,6 @@
 			category: "Sound",
 			categoryDisplayName: "Sound".localize()
 		});
-		//
-		//
-		//Story/Quests starts here
-		//Adds: 3
 		GDT.addResearchItem({
 			id: "Intuitive Narration", //Must be unique
 			name: "Intuitive Narration".localize(), //Display name
@@ -243,10 +231,6 @@
 			group: "Cut Scenes",
 			categoryDisplayName: "Story/Quests".localize()
 		});
-		//
-		//
-		//Engines online and ready, captain
-		//Adds: 14
 		GDT.addResearchItem({
 			id: "Integrated Modding Tools", //Must be unique
 			name: "Integrated Modding Tools".localize(), //Display name
@@ -396,10 +380,6 @@
 			category: "Engine",
 			categoryDisplayName: "Engine".localize()
 		});
-		//
-		//
-		//Gameplay section begins here
-		//Adds: 8
 		GDT.addResearchItem({
 			id: "Adaptive Tutorials", //Must be unique
 			name: "Adaptive Tutorials".localize(), //Display name
@@ -482,66 +462,6 @@
 			category: "Gameplay",
 			categoryDisplayName: "Gameplay".localize()
 		});
-		//
-		//
-		// We must have the dialogue
-		//Adds: 5
-		GDT.addResearchItem({
-			id: "Text-to-Voice", //Must be unique
-			name: "Text-to-Voice".localize(), //Display name
-			v: 6, //Tech level
-			canResearch: function (company) {
-				return LevelCalculator.getMissionLevel('Dialogue') > 6 
-			},
-			category: "Dialogue",
-			group: "ttv",
-			categoryDisplayName: "Dialogue".localize()
-		});
-		GDT.addResearchItem({
-			id: "Realistic Text-to-Voice", //Must be unique
-			name: "Realisitc Text-to-Voice".localize(), //Display name
-			v: 14, //Tech level
-			canResearch: function (company) {
-				return LevelCalculator.getMissionLevel('Dialogue') > 10 
-			},
-			category: "Dialogue",
-			group: "ttv",
-			categoryDisplayName: "Dialogue".localize()
-		});
-		GDT.addResearchItem({
-			id: "Reaactive Dialogue", //Must be unique
-			name: "Reactive Dialogue".localize(), //Display name
-			v: 6, //Tech level
-			canResearch: function (company) {
-				return LevelCalculator.getMissionLevel('Dialogue') > 5 
-			},
-			category: "Dialogue",
-			categoryDisplayName: "Dialogue".localize()
-		});
-		GDT.addResearchItem({
-			id: "Procedural Dialogue", //Must be unique
-			name: "Procedural Dialogue".localize(), //Display name
-			v: 10, //Tech level
-			canResearch: function (company) {
-				return LevelCalculator.getMissionLevel('Dialogue') > 9 
-			},
-			category: "Dialogue",
-			categoryDisplayName: "Dialogue".localize()
-		});
-		GDT.addResearchItem({
-			id: "Multi-Language Support", //Must be unique
-			name: "Multi-Language Support".localize(), //Display name
-			v: 4, //Tech level
-			canResearch: function (company) {
-				return LevelCalculator.getMissionLevel('Dialogue') > 2 
-			},
-			category: "Dialogue",
-			categoryDisplayName: "Dialogue".localize()
-		});
-		//
-		//
-		//You mean there's supposed to be multiple levels?
-		//Adds: 5
 		GDT.addResearchItem({
 			id: "Intuitive Layout", //Must be unique
 			name: "Intuitive Layout".localize(), //Display name
@@ -594,10 +514,6 @@
 			category: "Level Design",
 			categoryDisplayName: "Level Design".localize()
 		});
-		//
-		//
-		//We must shape the world to our needs
-		//Adds: 3
 		GDT.addResearchItem({
 			id: "Procedural World", //Must be unique
 			name: "Procedural World".localize(), //Display name
@@ -628,10 +544,58 @@
 			category: "World Design",
 			categoryDisplayName: "World Design".localize()
 		});
-		//
-		//
-		//I for one, bow down to our new AI Overlords
-		// Adds: 2
+		GDT.addResearchItem({
+			id: "Text-to-Voice", //Must be unique
+			name: "Text-to-Voice".localize(), //Display name
+			v: 6, //Tech level
+			canResearch: function (company) {
+				return LevelCalculator.getMissionLevel('Dialogs') > 6 
+			},
+			category: "Dialogs",
+			group: "ttv",
+			categoryDisplayName: "Dialogues".localize()
+		});
+		GDT.addResearchItem({
+			id: "Realistic Text-to-Voice", //Must be unique
+			name: "Realisitc Text-to-Voice".localize(), //Display name
+			v: 14, //Tech level
+			canResearch: function (company) {
+				return LevelCalculator.getMissionLevel('Dialogs') > 10 
+			},
+			category: "Dialogs",
+			group: "ttv",
+			categoryDisplayName: "Dialogues".localize()
+		});
+		GDT.addResearchItem({
+			id: "Reaactive Dialogue", //Must be unique
+			name: "Reactive Dialogue".localize(), //Display name
+			v: 6, //Tech level
+			canResearch: function (company) {
+				return LevelCalculator.getMissionLevel('Dialogs') > 5 
+			},
+			category: "Dialogs",
+			categoryDisplayName: "Dialogue".localize()
+		});
+		GDT.addResearchItem({
+			id: "Procedural Dialogue", //Must be unique
+			name: "Procedural Dialogue".localize(), //Display name
+			v: 10, //Tech level
+			canResearch: function (company) {
+				return LevelCalculator.getMissionLevel('Dialogs') > 9 
+			},
+			category: "Dialogs",
+			categoryDisplayName: "Dialogues".localize()
+		});
+		GDT.addResearchItem({
+			id: "Multi-Language Support", //Must be unique
+			name: "Multi-Language Support".localize(), //Display name
+			v: 4, //Tech level
+			canResearch: function (company) {
+				return LevelCalculator.getMissionLevel('Dialogs') > 2 
+			},
+			category: "Dialogs",
+			categoryDisplayName: "Dialogues".localize()
+		});
 		GDT.addResearchItem({
 			id: "Complex Triggers", //Must be unique
 			name: "Complex Triggers".localize(), //Display name
@@ -640,7 +604,7 @@
 				return LevelCalculator.getMissionLevel('AI') > 3 
 			},
 			category: "AI",
-			categoryDisplayName: "A.I.".localize()
+			categoryDisplayName: "AI".localize()
 		});
 		GDT.addResearchItem({
 			id: "Dynamic Pathfinding", //Must be unique
@@ -650,6 +614,6 @@
 				return LevelCalculator.getMissionLevel('AI') > 4 
 			},
 			category: "AI",
-			categoryDisplayName: "A.I.".localize()
+			categoryDisplayName: "AI".localize()
 		});
 	})();
