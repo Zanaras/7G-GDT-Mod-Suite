@@ -1,0 +1,13 @@
+{
+    "id": "7G-GDT-Research",
+    "name": "7G Research Mod",
+    "version": "0.1.3",
+    "author": "Modding@SeventhGamers.com",
+    "url": "http://seventhgamers.com/mods/gdt/7ggdtms",
+    "description": "Because there is always more to be  discovered, Seventh Gamers is proud to present our Game Dev Tycoon Research Mod! It adds 59 new wonderful things to research, ",
+    "main": "./7gresearch.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.2"
+    },
+    "image": "7G Tag-Thumbnail.png"
+}
