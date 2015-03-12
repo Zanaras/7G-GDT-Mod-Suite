@@ -1,13 +1,13 @@
 {
-    "id": "7G-GDT-Research",
-    "name": "7G Research Mod",
-    "version": "0.1.3",
+    "id": "7G-GDT-Topics",
+    "name": "7G Topic Mod",
+    "version": "0.1.2",
     "author": "Modding@SeventhGamers.com",
     "url": "http://seventhgamers.com/mods/gdt/7ggdtms",
-    "description": "Because there is always more to be  discovered, Seventh Gamers is proud to present our Game Dev Tycoon Research Mod! It adds 59 new wonderful things to research, ",
-    "main": "./7gresearch.js",
+    "description": "Who said rocks weren't a game topic?!\n\nNot us! This mod adds 102 new topics to your game, expanding the list found in the original game by over 200%!\n\nFully compatible with all other 7G Game Dev Tycoon mods, of which there are now 2 total.",
+    "main": "./7gtopics.js",
     "dependencies": {
         "gdt-modAPI": "0.1.2"
     },
-    "image": "7G Tag-Thumbnail.png"
+    "image": "7G Tag 200x200-Thumbnail.png"
 }
