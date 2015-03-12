@@ -10,7 +10,7 @@
 			},
 			category: "Graphic",
 			categoryDisplayName: "Graphic".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "UI Scaling", //Must be unique
@@ -42,7 +42,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "480p Resolution", //Must be unique
@@ -54,7 +54,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "600p Resolution", //Must be unique
@@ -66,7 +66,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "HD", //Must be unique
@@ -78,7 +78,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "HD+", //Must be unique
@@ -90,7 +90,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Full HD", //Must be unique
@@ -102,7 +102,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "2K", //Must be unique
@@ -114,7 +114,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "4K", //Must be unique
@@ -126,7 +126,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "8K", //Must be unique
@@ -138,7 +138,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "16K", //Must be unique
@@ -150,7 +150,7 @@
 			category: "Graphic",
 			group: "Resolution",
 			categoryDisplayName: "Resolution".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 	//
 	//Sound Section Starts Here
@@ -173,7 +173,7 @@
 			},
 			category: "Sound",
 			categoryDisplayName: "Sound".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Custom Playlists", //Must be unique
@@ -184,7 +184,7 @@
 			},
 			category: "Sound",
 			categoryDisplayName: "Sound".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Auto-Generated Audio", //Must be unique
@@ -195,7 +195,7 @@
 			},
 			category: "Sound",
 			categoryDisplayName: "Sound".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "In-Game Radio", //Must be unique
@@ -206,7 +206,7 @@
 			},
 			category: "Sound",
 			categoryDisplayName: "Sound".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Internet Audio Sources", //Must be unique
@@ -217,7 +217,7 @@
 			},
 			category: "Sound",
 			categoryDisplayName: "Sound".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 	//
 	//Story/Quests Section Starts Here
@@ -264,7 +264,7 @@
 			},
 			category: "Engine",
 			categoryDisplayName: "Engine".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Streaming Support", //Must be unique
@@ -275,7 +275,7 @@
 			},
 			category: "Engine",
 			categoryDisplayName: "Engine".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Use Map Settings", //Must be unique
@@ -287,7 +287,7 @@
 			category: "Engine",
 			group: "Mods",
 			categoryDisplayName: "Engine".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "External Data Sources", //Must be unique
@@ -299,7 +299,7 @@
 			category: "Engine",
 			group: "Mods",
 			categoryDisplayName: "Mod Support".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Multiplayer Mods", //Must be unique
@@ -311,7 +311,7 @@
 			category: "Engine",
 			group: "Mods",
 			categoryDisplayName: "Mod Support".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "On The Fly Scripting Support", //Must be unique
@@ -322,7 +322,7 @@
 			},
 			category: "Engine",
 			categoryDisplayName: "Mod Support".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "LAN Support", //Must be unique
@@ -334,7 +334,7 @@
 			category: "Engine",
 			group: "Multiplayer",
 			categoryDisplayName: "Multiplayer".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Dial-up Support", //Must be unique
@@ -346,7 +346,7 @@
 			category: "Engine",
 			group: "Multiplayer",
 			categoryDisplayName: "Multiplayer".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "Internet Multiplayer", //Must be unique
@@ -358,7 +358,7 @@
 			category: "Engine",
 			group: "Multiplayer",
 			categoryDisplayName: "Multiplayer".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 		GDT.addResearchItem({
 			id: "CD Keys", //Must be unique
@@ -636,7 +636,7 @@
 			},
 			category: "Dialogs",
 			categoryDisplayName: "Dialogues".localize(),
-			consolePart: True
+			consolePart: "True"
 		});
 	//
 	//AI Section Starts Here
