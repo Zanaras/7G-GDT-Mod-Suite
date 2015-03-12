@@ -4,7 +4,7 @@
     "version": "0.1.4",
     "author": "Modding@SeventhGamers.com",
     "url": "http://seventhgamers.com/mods/gdt/7ggdtms",
-    "description": "Because there is always more to be  discovered, Seventh Gamers is proud to present our Game Dev Tycoon Research Mod! It adds 61 new wonderful things to research for those who want to really tweak their game engines.\n\nRequirements: \"gdt-modAPI\"",
+    "description": "Because there is always more to be  discovered, Seventh Gamers is proud to present our Game Dev Tycoon Research Mod! It adds 61 new wonderful things to research for those who want to really tweak their game engines.\n\nRequires \"gdt-modAPI\"",
     "main": "./7gresearch.js",
     "dependencies": {
         "gdt-modAPI": "0.1.2"

@@ -4,10 +4,10 @@
     "version": "0.1",
     "author": "Modding@SeventhGamers.com",
     "url": "http://seventhgamers.com/mods/gdt/7ggdtms",
-    "description": "The very first mod by Seventh Gamers, specifically Zanaras. This mod is intended to be part of a larger mod suite, though they can all be played individually. This one in particular, adds 100 brand new topics.",
+    "description": "Who said rocks weren't a game topic?!\n\nNot us! This mod adds 102 new topics to your game, expanding the list found in the original game by over 200%!\n\nFully compatible with all other 7G Game Dev Tycoon mods, of which there are now 2 total.\n\nRequirements: \"gdt-modAPI\"",
     "main": "./7gtopics.js",
     "dependencies": {
         "gdt-modAPI": "0.1.2"
     },
-    "image": "7G Tag-Thumbnail.png"
+    "image": "7G Tag 200x200-Thumbnail.png"
 }
