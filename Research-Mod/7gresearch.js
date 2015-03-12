@@ -9,7 +9,7 @@
 				return LevelCalculator.getMissionLevel('Graphic') > 3 
 			},
 			category: "Graphic",
-			categoryDisplayName: "Graphic".localize()
+			categoryDisplayName: "Graphic".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -41,7 +41,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -53,7 +53,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -65,7 +65,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -77,7 +77,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -89,7 +89,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -101,7 +101,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -113,7 +113,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -125,7 +125,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -137,7 +137,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -149,7 +149,7 @@
 			},
 			category: "Graphic",
 			group: "Resolution",
-			categoryDisplayName: "Resolution".localize()
+			categoryDisplayName: "Resolution".localize(),
 			consolePart: True
 		});
 	//
@@ -172,7 +172,7 @@
 				return LevelCalculator.getMissionLevel('Sound') > 2 
 			},
 			category: "Sound",
-			categoryDisplayName: "Sound".localize()
+			categoryDisplayName: "Sound".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -183,7 +183,7 @@
 				return LevelCalculator.getMissionLevel('Sound') > 3 
 			},
 			category: "Sound",
-			categoryDisplayName: "Sound".localize()
+			categoryDisplayName: "Sound".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -194,7 +194,7 @@
 				return LevelCalculator.getMissionLevel('Sound') > 9 
 			},
 			category: "Sound",
-			categoryDisplayName: "Sound".localize()
+			categoryDisplayName: "Sound".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -205,7 +205,7 @@
 				return LevelCalculator.getMissionLevel('Sound') > 4 
 			},
 			category: "Sound",
-			categoryDisplayName: "Sound".localize()
+			categoryDisplayName: "Sound".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -216,7 +216,7 @@
 				return LevelCalculator.getMissionLevel('Sound') > 7 
 			},
 			category: "Sound",
-			categoryDisplayName: "Sound".localize()
+			categoryDisplayName: "Sound".localize(),
 			consolePart: True
 		});
 	//
@@ -263,7 +263,7 @@
 				return LevelCalculator.getMissionLevel('Engine') > 6 
 			},
 			category: "Engine",
-			categoryDisplayName: "Engine".localize()
+			categoryDisplayName: "Engine".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -274,7 +274,7 @@
 				return LevelCalculator.getMissionLevel('Engine') > 7 
 			},
 			category: "Engine",
-			categoryDisplayName: "Engine".localize()
+			categoryDisplayName: "Engine".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -286,7 +286,7 @@
 			},
 			category: "Engine",
 			group: "Mods",
-			categoryDisplayName: "Engine".localize()
+			categoryDisplayName: "Engine".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -298,7 +298,7 @@
 			},
 			category: "Engine",
 			group: "Mods",
-			categoryDisplayName: "Mod Support".localize()
+			categoryDisplayName: "Mod Support".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -310,7 +310,7 @@
 			},
 			category: "Engine",
 			group: "Mods",
-			categoryDisplayName: "Mod Support".localize()
+			categoryDisplayName: "Mod Support".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -321,7 +321,7 @@
 				return LevelCalculator.getMissionLevel('Engine') > 7 
 			},
 			category: "Engine",
-			categoryDisplayName: "Mod Support".localize()
+			categoryDisplayName: "Mod Support".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -333,7 +333,7 @@
 			},
 			category: "Engine",
 			group: "Multiplayer",
-			categoryDisplayName: "Multiplayer".localize()
+			categoryDisplayName: "Multiplayer".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -345,7 +345,7 @@
 			},
 			category: "Engine",
 			group: "Multiplayer",
-			categoryDisplayName: "Multiplayer".localize()
+			categoryDisplayName: "Multiplayer".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -357,7 +357,7 @@
 			},
 			category: "Engine",
 			group: "Multiplayer",
-			categoryDisplayName: "Multiplayer".localize()
+			categoryDisplayName: "Multiplayer".localize(),
 			consolePart: True
 		});
 		GDT.addResearchItem({
@@ -635,7 +635,7 @@
 				return LevelCalculator.getMissionLevel('Dialogs') > 2 
 			},
 			category: "Dialogs",
-			categoryDisplayName: "Dialogues".localize()
+			categoryDisplayName: "Dialogues".localize(),
 			consolePart: True
 		});
 	//
